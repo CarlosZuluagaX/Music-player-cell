@@ -136,6 +136,12 @@ main .barra-time .min2 p {
   font-size: 2rem;
   color: white;
 }
+main .barra-time:hover {
+  color: blue;
+  background-color: red;
+  border-radius: 2rem;
+  transform: translateY(-10px);
+}
 main .select-section {
   width: 100%;
   height: auto;
@@ -150,6 +156,11 @@ main .select-section img {
   width: 7rem;
   background-color: #350000;
   border-radius: 1rem;
+}
+main .select-section img:hover {
+  background-color: red;
+  color: blue;
+  transform: translate(10px -10px);
 }
 main .liga {
   position: absolute;
@@ -173,7 +184,15 @@ footer .container {
 footer .container p {
   font-size: 3rem;
 }
+footer .container p:hover {
+  transition: 0.5s;
+  transform: translateY(-10px);
+}
 footer .container i {
   font-size: 3rem;
   color: whitesmoke;
+}
+footer .container i:hover {
+  transition: 0.5s;
+  transform: translateY(-10px);
 }/*# sourceMappingURL=style.css.map */
