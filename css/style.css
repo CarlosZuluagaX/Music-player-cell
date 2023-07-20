@@ -1,0 +1,179 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to left top, #91190f, #790e10, #62060f, #4b020a, #350000);
+}
+
+header {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-size: 7rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 700;
+  color: #d95b44;
+  box-shadow: #b53c29 2px solid;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .music-section {
+  width: 100%;
+  height: 33rem;
+  display: flex;
+  flex-direction: wrap;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  gap: 2rem;
+}
+main .music-section .imgg {
+  border-radius: 5rem;
+  width: 100%;
+  scroll-snap-align: center;
+  color: #d95b44;
+  border: #790e10;
+  box-shadow: 11px 11px 6px 13px firebrick;
+  left: 2px;
+}
+main .music-section .imgg1 {
+  border-radius: 5rem;
+  width: 100%;
+  scroll-snap-align: center;
+}
+main .music-section .music-container {
+  background-image: url(../img/paulo.jpg);
+  width: 70%;
+  height: 70rem;
+  background-size: cover;
+  display: flex 1 0 auto;
+  background-position: center;
+  border-radius: 2rem;
+  scroll-snap-align: center;
+}
+main .music-section .music-container-2 {
+  background-image: url(../img/pualo2.jpg);
+  width: 70%;
+  height: 70rem;
+  background-size: cover;
+  display: flex 1 0 auto;
+  background-position: center;
+  border-radius: 2rem;
+  scroll-snap-align: center;
+}
+main .music-section .music-container-3 {
+  width: 70%;
+  height: 70rem;
+  background-size: cover;
+  display: flex 1 0 auto;
+  background-position: center;
+  border-radius: 2rem;
+  scroll-snap-align: center;
+}
+main .barra-time {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 100%;
+  justify-content: center;
+  align-items: center;
+}
+main .barra-time .min {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/2;
+}
+main .barra-time .min p {
+  font-size: 2rem;
+  color: white;
+}
+main .barra-time .barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/3;
+  grid-template-rows: 1;
+  background-color: white;
+  width: 100%;
+  height: 0.4rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-right: 0.9rem;
+  margin-left: 0.4rem;
+}
+main .barra-time .min2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3/4;
+  padding: 0.3rem;
+}
+main .barra-time .min2 p {
+  font-size: 2rem;
+  color: white;
+}
+main .select-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 7rem;
+}
+main .select-section img {
+  width: 7rem;
+  background-color: #350000;
+  border-radius: 1rem;
+}
+main .liga {
+  position: absolute;
+  right: 4.4rem;
+  top: 22rem;
+  width: 1.4rem;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+footer .container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer .container p {
+  font-size: 3rem;
+}
+footer .container i {
+  font-size: 3rem;
+  color: whitesmoke;
+}/*# sourceMappingURL=style.css.map */
